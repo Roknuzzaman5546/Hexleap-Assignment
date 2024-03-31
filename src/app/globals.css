@@ -2,3 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
+.interFont {
+    font-family: var(--fontInter);
+}
