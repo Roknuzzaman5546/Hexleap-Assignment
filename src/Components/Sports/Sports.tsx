@@ -8,7 +8,7 @@ import MaskGroup4 from '../../assets/unnamed.png'
 const Sports = () => {
     return (
         <div className=" lg:max-w-screen-2xl w-11/12  mx-auto mt-8">
-            <h2 className=" text-2xl font-bold border-b-[3px] my-4 pb-2 inline-block border-blue-500">Sports</h2>
+            <h2 className=" text-2xl font-bold border-b-[3px] my-4 pb-2 inline-block border-blue-500 text-white">Sports</h2>
             <div className=" grid xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-4">
                 {/* Sport card 1 */}
                 <div className=" h-[450px]  text-center bg-gray-600 ">
@@ -101,6 +101,9 @@ const Sports = () => {
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
                 </div>
+            </div>
+            <div className=" text-center mt-8 mb-10">
+                <button className="bg-[#2c9cf0] text-white px-5 py-3 rounded">See more</button>
             </div>
         </div>
     );

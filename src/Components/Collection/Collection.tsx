@@ -60,7 +60,20 @@ const Collection = () => {
                 <div>
                     <Swiper
                         onSwiper={setSwiperRef}
-                        slidesPerView={3}
+                        breakpoints={{
+                            500: {
+                                width: 650,
+                                slidesPerView: 1,
+                            },
+                            800: {
+                                width: 720,
+                                slidesPerView: 2,
+                            }
+                        }}
+                        autoplay={{
+                            delay: 2500,
+                            disableOnInteraction: false,
+                        }}
                         centeredSlides={true}
                         spaceBetween={40}
                         pagination={{
@@ -73,8 +86,8 @@ const Collection = () => {
                         {/* Slide 1 */}
                         <SwiperSlide>
                             <div className=' relative'>
-                                <Image className=' h-[600px] w-[80%]' src={bgImg} />
-                                <div className='absolute top-0 left-5 text-center'>
+                                <Image className=' h-[600px] w-[90%] md:' src={bgImg} />
+                                <div className='absolute top-0 left-0 md:le text-center'>
                                     <Image className=' h-[430px] w-full' src={playerImg1} />
                                     <h2 className="text-white font-semibold">Las Vegas Aviators</h2>
                                     <p className=' text-white'>Oct 15 | Sun 4:30 PM</p>
@@ -86,8 +99,8 @@ const Collection = () => {
                         {/* Slide 2 */}
                         <SwiperSlide>
                             <div className=' relative'>
-                                <Image className=' h-[600px] w-[80%]' src={bgImg} />
-                                <div className='absolute top-0 left-5 text-center'>
+                                <Image className=' h-[600px] w-[90%] md:' src={bgImg} />
+                                <div className='absolute top-0 left-0 md:left-5 text-center'>
                                     <Image className=' h-[430px] w-full' src={playerImg2} />
                                     <h2 className="text-white font-semibold">Sacramento River Cats</h2>
                                     <p className=' text-white'>Oct 15 Sun 4:30 PM</p>
@@ -99,8 +112,8 @@ const Collection = () => {
                         {/* Slide 3 */}
                         <SwiperSlide>
                             <div className=' relative'>
-                                <Image className=' h-[600px] w-[80%]' src={bgImg} />
-                                <div className='absolute top-0 left-5 text-center'>
+                                <Image className=' h-[600px] w-[90%] md:' src={bgImg} />
+                                <div className='absolute top-0 left-0 md:left-5 text-center'>
                                     <Image className=' h-[430px] w-full' src={playerImg1} />
                                     <h2 className="text-white font-semibold">Las Vegas Aviators</h2>
                                     <p className=' text-white'>Oct 15 | Sun 4:30 PM</p>
@@ -112,8 +125,8 @@ const Collection = () => {
                         {/* Slide 4 */}
                         <SwiperSlide>
                             <div className=' relative'>
-                                <Image className=' h-[600px] w-[80%]' src={bgImg} />
-                                <div className='absolute top-0 left-5 text-center'>
+                                <Image className=' h-[600px] w-[90%] md:' src={bgImg} />
+                                <div className='absolute top-0 left-0 md:left-5 text-center'>
                                     <Image className=' h-[430px] w-full' src={playerImg2} />
                                     <h2 className="text-white font-semibold">Sacramento River Cats</h2>
                                     <p className=' text-white'>Oct 15 Sun 4:30 PM</p>
@@ -125,8 +138,8 @@ const Collection = () => {
                         {/* Slide 5 */}
                         <SwiperSlide>
                             <div className=' relative'>
-                                <Image className=' h-[600px] w-[80%]' src={bgImg} />
-                                <div className='absolute top-0 left-5 text-center'>
+                                <Image className=' h-[600px] w-[90%] md:' src={bgImg} />
+                                <div className='absolute top-0 left-0 md:left-5 text-center'>
                                     <Image className=' h-[430px] w-full' src={playerImg1} />
                                     <h2 className="text-white font-semibold">Las Vegas Aviators</h2>
                                     <p className=' text-white'>Oct 15 | Sun 4:30 PM</p>
