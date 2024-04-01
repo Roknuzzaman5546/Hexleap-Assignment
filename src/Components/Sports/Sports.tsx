@@ -5,7 +5,9 @@ import MaskGroup1 from '../../assets/Mask group (1).png'
 import MaskGroup2 from '../../assets/Mask group (2).png'
 import MaskGroup3 from '../../assets/Mask group.png'
 import MaskGroup4 from '../../assets/unnamed.png'
+
 const Sports = () => {
+
     return (
         <div className=" lg:max-w-screen-2xl w-11/12  mx-auto mt-8">
             <h2 className=" text-2xl font-bold border-b-[3px] my-4 pb-2 inline-block border-blue-500 text-white">Sports</h2>

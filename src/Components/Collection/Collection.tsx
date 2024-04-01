@@ -61,9 +61,9 @@ const Collection = () => {
                         <Slider {...settings}>
                             {/* slider card 1 */}
                             <div className=' relative'>
-                                <Image className=' h-[600px] w-[95%] md:w-[78%] ' src={bgImg} />
+                                <Image className=' h-[600px] w-[95%] md:w-[78%] ' src={bgImg} alt="slide 1" />
                                 <div className='absolute top-0 left-0 md:left-5 flex flex-col justify-center items-center text-center'>
-                                    <Image className=' h-[430px] w-full' src={playerImg1} />
+                                    <Image className=' h-[430px] w-full' src={playerImg1} alt="slide 1" />
                                     <h2 className="text-white font-semibold">Las Vegas Aviators</h2>
                                     <p className=' text-white'>Oct 15 | Sun 4:30 PM</p>
                                     <p className=' text-gray-200'>Las Vegas Ballpark, Las Vegas,<br /> Nevada</p>
@@ -71,9 +71,9 @@ const Collection = () => {
                                 </div>
                             </div>
                             <div className=' relative'>
-                                <Image className=' h-[600px] w-[95%] md:w-[78%]' src={bgImg} />
+                                <Image className=' h-[600px] w-[95%] md:w-[78%]' src={bgImg} alt="slide 2" />
                                 <div className='absolute top-0 left-0 md:left-5 text-center'>
-                                    <Image className=' h-[430px] w-full' src={playerImg2} />
+                                    <Image className=' h-[430px] w-full' src={playerImg2} alt="slide 2" />
                                     <h2 className="text-white font-semibold">Sacramento River Cats</h2>
                                     <p className=' text-white'>Oct 15 Sun 4:30 PM</p>
                                     <p className=' text-gray-200'>Sutter Health Park, Sacramento, <br /> California</p>
@@ -81,9 +81,9 @@ const Collection = () => {
                                 </div>
                             </div>
                             <div className=' relative'>
-                                <Image className=' h-[600px] w-[95%] md:w-[78%] ' src={bgImg} />
+                                <Image className=' h-[600px] w-[95%] md:w-[78%] ' src={bgImg} alt="slide 3" />
                                 <div className='absolute top-0 left-0 md:left-5 flex flex-col justify-center items-center text-center'>
-                                    <Image className=' h-[430px] w-full' src={playerImg1} />
+                                    <Image className=' h-[430px] w-full' src={playerImg1} alt="slide 3" />
                                     <h2 className="text-white font-semibold">Las Vegas Aviators</h2>
                                     <p className=' text-white'>Oct 15 | Sun 4:30 PM</p>
                                     <p className=' text-gray-200'>Las Vegas Ballpark, Las Vegas,<br /> Nevada</p>
@@ -91,9 +91,9 @@ const Collection = () => {
                                 </div>
                             </div>
                             <div className=' relative'>
-                                <Image className=' h-[600px] w-[95%] md:w-[78%]' src={bgImg} />
+                                <Image className=' h-[600px] w-[95%] md:w-[78%]' src={bgImg} alt="slide 4" />
                                 <div className='absolute top-0 left-0 md:left-5 text-center'>
-                                    <Image className=' h-[430px] w-full' src={playerImg2} />
+                                    <Image className=' h-[430px] w-full' src={playerImg2} alt="slide 4" />
                                     <h2 className="text-white font-semibold">Sacramento River Cats</h2>
                                     <p className=' text-white'>Oct 15 Sun 4:30 PM</p>
                                     <p className=' text-gray-200'>Sutter Health Park, Sacramento, <br /> California</p>
@@ -101,9 +101,9 @@ const Collection = () => {
                                 </div>
                             </div>
                             <div className=' relative'>
-                                <Image className=' h-[600px] w-[95%] md:w-[78%] ' src={bgImg} />
+                                <Image className=' h-[600px] w-[95%] md:w-[78%] ' src={bgImg} alt="slide 5" />
                                 <div className='absolute top-0 left-0 md:left-5 flex flex-col justify-center items-center text-center'>
-                                    <Image className=' h-[430px] w-full' src={playerImg1} />
+                                    <Image className=' h-[430px] w-full' src={playerImg1} alt="slide 5" />
                                     <h2 className="text-white font-semibold">Las Vegas Aviators</h2>
                                     <p className=' text-white'>Oct 15 | Sun 4:30 PM</p>
                                     <p className=' text-gray-200'>Las Vegas Ballpark, Las Vegas,<br /> Nevada</p>
